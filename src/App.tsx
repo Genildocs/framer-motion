@@ -12,6 +12,7 @@ import AnimatePresence from './components/AnimatePresence';
 import UseMotion from './components/UseMotion';
 import DraggableBox from './components/DraggableBox';
 import Scroll from './components/Scroll';
+import ButtonInvoice from './components/ui/ButtonInvoice';
 
 export default function App() {
   return (
@@ -31,7 +32,15 @@ export default function App() {
       {/* <AnimatePresence /> */}
       {/* <UseMotion /> */}
       {/* <DraggableBox /> */}
-      <Scroll />
+      {/* <Scroll /> */}
+
+      {/* ui */}
+      {/* <div className="mb-5">
+        <ButtonInvoice name="New Invoice" style={button1} />
+      </div>
+      <div>
+        <ButtonInvoice name="Mark as Paid" style={button2} />
+      </div> */}
     </div>
   );
 }
